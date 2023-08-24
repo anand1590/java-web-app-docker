@@ -114,16 +114,8 @@
 	<build>
 		<plugins>
 			<plugin>
-				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
-				<plugin>
-				    <artifactId>maven-compiler-plugin</artifactId>
-				    <version>3.8.1</version>
-				    <configuration>
-				        <source />
-				        <target />
-				     </configuration>
-				   </plugin>
-
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
 				<inherited>true</inherited>
 				<configuration>
 					<source>1.8</source>
@@ -132,5 +124,6 @@
 			</plugin>
 		</plugins>
 	</build>
+
 	
 </project>
